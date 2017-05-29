@@ -2,3 +2,10 @@ Convolutional Neural Networks
 0) Best Practices for Convolutional Neural Networks Applied to Visual Document Analysis
 https://pdfs.semanticscholar.org/7b1c/c19dec9289c66e7ab45e80e8c42273509ab6.pdf
 
+Task: Digit Recognition
+Dataset: MNIST
+Model: CNN (2 convs + 2 fully connected layers)
+Summary:
+a. Elastic deformations have a considerable impact on performance. (++)
+This could also imply that the evaluation dataset is too small to infer the generalization properly.
+b. Affine transformation is also good for recognition. (+)
