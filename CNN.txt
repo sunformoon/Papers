@@ -1,2 +1,4 @@
 Convolutional Neural Networks
-Best Practices for Convolutional Neural Networks Applied to Visual Document Analysis
+0) Best Practices for Convolutional Neural Networks Applied to Visual Document Analysis
+https://pdfs.semanticscholar.org/7b1c/c19dec9289c66e7ab45e80e8c42273509ab6.pdf
+
