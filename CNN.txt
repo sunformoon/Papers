@@ -1,0 +1,2 @@
+Convolutional Neural Networks
+Best Practices for Convolutional Neural Networks Applied to Visual Document Analysis
