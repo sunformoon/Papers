@@ -9,3 +9,5 @@ Summary:
 a. Elastic deformations have a considerable impact on performance. (++)
 This could also imply that the evaluation dataset is too small to infer the generalization properly.
 b. Affine transformation is also good for recognition. (+)
+
+Comments: Same observations found for the 3D Pancreas segmentation task on NIH dataset.
