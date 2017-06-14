@@ -1,0 +1,6 @@
+0) Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour
+Priya Goyal Piotr Dollar Ross Girshick Pieter Noordhuis Lukasz Wesolowski Aapo Kyrola Andrew Tulloch Yangqing Jia Kaiming He
+
+Summary: A practical guide to train a deep neural network with large minibatch size. 
+Goal: To Use large minibatches instead of small ones while keeping training and generation ability.
+Proposed: a). Adjust learning rate linearly b). warpup training during the start phase when the network is changing rapidly.
