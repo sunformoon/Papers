@@ -3,4 +3,9 @@ Priya Goyal Piotr Dollar Ross Girshick Pieter Noordhuis Lukasz Wesolowski Aapo K
 
 Summary: A practical guide to train a deep neural network with large minibatch size. 
 Goal: To Use large minibatches instead of small ones while keeping training and generation ability.
-Proposed: a). Adjust learning rate linearly b). warpup training during the start phase when the network is changing rapidly.
+Proposed: a). Adjust learning rate linearly b). Warmup training during the start phase when the network is changing rapidly.
+
+Observations:
+a). Training and validation curves can be well matched for large minibatches (as large as 8K) with the reference(256) although obvious differences can be found in the beginning of optimization process.
+b). Roughly linear scaling when moving from one server with 8 GPUs to multiple servers for distributed training.
+c). "Elbow" seems not to be dependent on how large the dataset is. (8K "elbow" point from Imagenet-1K to ImageNet-5K)
