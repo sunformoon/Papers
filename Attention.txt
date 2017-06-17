@@ -1,0 +1,10 @@
+0) Attention Is All You Need
+Google Brain
+
+Task: Machine translation
+Proposed: Self-attention model without recurrence or convolutions
+Observations:
+a). Multi-head attention -- multiple scaled dot-product attention can help the model to jointly attend to information from different represetation subspaces.
+b). Allow encoder and decoder to attend to all positions in the input sequence.
+
+Not clearly understand the machine translation task :(
