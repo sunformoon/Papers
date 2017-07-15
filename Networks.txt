@@ -1,0 +1,8 @@
+0) Dual Path Network
+Yunpeng Chen, Jianan Li, Huaxin Xiao, Xiaojie Jin, Shuicheng Yan, Jiashi Feng
+
+Reveal the equivalance of Residual Network (ResNet) and Densely Convolutional Network (DenseNet) with the HORNN framwork.
+
+ResNet enables feature reuse and DenseNet enables new feature exploration
+Feature 1 is interesting by introducing the linear-system-diagram.
+Formulations are inspiring. 
